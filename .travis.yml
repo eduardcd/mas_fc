@@ -6,7 +6,7 @@ virtualenv:
   system_site_packages: true  
 # command to install dependencies
 install:
-  - apt install python-pytest
+  - sudo apt install python-pytest
 # command to run tests
 script:
   - pytest
